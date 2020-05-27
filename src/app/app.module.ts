@@ -13,7 +13,7 @@ import { EjeventbindingComponent } from './ejeventbinding/ejeventbinding.compone
 import { Ej2waybindingComponent } from './ej2waybinding/ej2waybinding.component';
 import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.component';
 import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangstyle.component';
-import { EjdirectivangForComponent } from './ejdirectivang-for/ejdirectivang-for.component';
+s
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],

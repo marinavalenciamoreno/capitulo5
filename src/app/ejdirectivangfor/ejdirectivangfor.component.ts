@@ -2,16 +2,12 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-ejdirectivangfor',
-  templateUrl: './ejdirectivang-for.component.html',
-  styleUrls: ['./ejdirectivang-for.component.css']
+  templateUrl: './ejdirectivangfor.component.html',
+  styleUrls: ['./ejdirectivangfor.component.css']
 })
-export class EjdirectivangForComponent implements OnInit {
+export class EjdirectivangforComponent implements OnInit {
 
-  cursos: string[];
-
-  constructor() { 
-    this.cursos=['Angular','HTML','CSS'];
-  }
+  constructor() { }
 
   ngOnInit() {
   }
