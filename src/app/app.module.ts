@@ -13,10 +13,11 @@ import { EjeventbindingComponent } from './ejeventbinding/ejeventbinding.compone
 import { Ej2waybindingComponent } from './ej2waybinding/ej2waybinding.component';
 import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.component';
 import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangstyle.component';
+import { EjdirectivangForComponent } from './ejdirectivang-for/ejdirectivang-for.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, FechaactualComponent, CopyrightComponent, ViewmodeloComponent, EjmetodoComponent, EjpropertybindingComponent, EjeventbindingComponent, Ej2waybindingComponent, EjdirectivangifComponent, EjdirectivangstyleComponent ],
+  declarations: [ AppComponent, HelloComponent, FechaactualComponent, CopyrightComponent, ViewmodeloComponent, EjmetodoComponent, EjpropertybindingComponent, EjeventbindingComponent, Ej2waybindingComponent, EjdirectivangifComponent, EjdirectivangstyleComponent, EjdirectivangForComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

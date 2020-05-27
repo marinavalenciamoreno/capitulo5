@@ -14,6 +14,6 @@ export class EjdirectivangifComponent implements OnInit {
   }
 
   setResultado(){
-    return this.capital === "madrid"?true : false;
+    return this.capital === "Madrid"?true : false;
   }
 }
