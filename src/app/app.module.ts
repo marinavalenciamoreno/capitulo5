@@ -17,7 +17,7 @@ import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangs
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, FechaactualComponent, CopyrightComponent, ViewmodeloComponent, EjmetodoComponent, EjpropertybindingComponent, EjeventbindingComponent, Ej2waybindingComponent, EjdirectivangifComponent, EjdirectivangstyleComponent, EjdirectivangForComponent ],
+  declarations: [ AppComponent, HelloComponent, FechaactualComponent, CopyrightComponent, ViewmodeloComponent, EjmetodoComponent, EjpropertybindingComponent, EjeventbindingComponent, Ej2waybindingComponent, EjdirectivangifComponent, EjdirectivangstyleComponent, ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
