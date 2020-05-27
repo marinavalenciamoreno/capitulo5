@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ejdirectivangfor.component.css']
 })
 export class EjdirectivangforComponent implements OnInit {
-
-  constructor() { }
+  cursos: string[];
+  constructor() { 
+    this.cursos=["Angular",'HTML','CSS'];
+  }
 
   ngOnInit() {
   }
