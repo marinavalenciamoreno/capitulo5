@@ -16,11 +16,14 @@ import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangs
 import { EjdirectivangforComponent } from './ejdirectivangfor/ejdirectivangfor.component';
 import { ArrayobjetosComponent } from './arrayobjetos/arrayobjetos.component';
 import { EjdirectivangswitchComponent } from './ejdirectivangswitch/ejdirectivangswitch.component';
+import { MenuitemDirective } from './menuitem.directive';
+import { MidirectivaComponent } from './midirectiva/midirectiva.component';
+import { EjmidirectivaComponent } from './ejmidirectiva/ejmidirectiva.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, FechaactualComponent, CopyrightComponent, ViewmodeloComponent, EjmetodoComponent, EjpropertybindingComponent, EjeventbindingComponent, Ej2waybindingComponent, EjdirectivangifComponent, EjdirectivangstyleComponent, EjdirectivangforComponent, ArrayobjetosComponent, EjdirectivangswitchComponent ],
+  declarations: [ AppComponent, HelloComponent, FechaactualComponent, CopyrightComponent, ViewmodeloComponent, EjmetodoComponent, EjpropertybindingComponent, EjeventbindingComponent, Ej2waybindingComponent, EjdirectivangifComponent, EjdirectivangstyleComponent, EjdirectivangforComponent, ArrayobjetosComponent, EjdirectivangswitchComponent, MenuitemDirective, MidirectivaComponent, EjmidirectivaComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
